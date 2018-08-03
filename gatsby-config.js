@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    'gatsby-plugin-eslint',
+    // 'gatsby-plugin-eslint',
     'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-google-analytics',
