@@ -1,0 +1,50 @@
+/* ==========================================================================
+ * Fonts
+ * ========================================================================== */
+
+/* @font-face */
+@font-face {
+  font-family: "Tofino-Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Tofino-Bold.woff2") format("woff2"),
+    url("../fonts/Tofino-Bold.woff") format("woff"),
+    url("../fonts/Tofino-Bold.otf") format("opentype");
+}
+
+/* Font Family */
+$font-family--primary: "Tofino-Bold", -apple-system, "BlinkMacSystemFont",
+  "Segoe UI", "Helvetica", "Arial", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family--code: "Consolas", "Liberation Mono", "Menlo", "Courier", monospace;
+
+/* Font Size */
+$font-size--xs: 0.5rem;
+$font-size--sm: 0.75rem;
+$font-size--md: 1rem;
+$font-size--lg: 1.5rem;
+$font-size--xl: 2rem;
+$font-size--2xl: 2.5rem;
+$font-size--3xl: 3rem;
+
+/* Font Weight */
+$font-weight--light: 300;
+$font-weight--normal: 400;
+$font-weight--medium: 500;
+$font-weight--semibold: 600;
+$font-weight--bold: 700;
+$font-weight--black: 900;
+
+/* Letter Spacing */
+$letter-spacing--narrow: -0.05em;
+$letter-spacing--normal: 0;
+$letter-spacing--wide: 0.05em;
+
+/* Line Height */
+$line-height--xs: calc($font-size--xs + 0.5rem);
+$line-height--sm: calc($font-size--sm + 0.5rem);
+$line-height--md: calc($font-size--md + 0.5rem);
+$line-height--lg: calc($font-size--lg + 0.5rem);
+$line-height--xl: calc($font-size--xl + 0.5rem);
+$line-height--2xl: calc($font-size--2xl + 0.5rem);
+$line-height--3xl: calc($font-size--3xl + 0.5rem);
