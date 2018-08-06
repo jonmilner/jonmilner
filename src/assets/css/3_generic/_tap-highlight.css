@@ -1,15 +1,10 @@
 /* ==========================================================================
- * Clearfix
+ * Tap Highlight
  * ========================================================================== */
 
-@define-mixin jm-m-clearfix {
-  &::before,
-  &::after {
-    content: "";
-    display: table;
-  }
-
-  &::after {
-    clear: both;
-  }
+a,
+div,
+img,
+span {
+  -webkit-tap-highlight-color: transparent;
 }

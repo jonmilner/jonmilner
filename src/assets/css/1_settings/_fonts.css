@@ -1,0 +1,43 @@
+/* ==========================================================================
+ * Fonts
+ * ========================================================================== */
+
+/* Font Family */
+$font-family--primary: "Tofino-Bold", -apple-system, "BlinkMacSystemFont",
+  "Segoe UI", "Helvetica", "Arial", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family--code: "Consolas", "Liberation Mono", "Menlo", "Courier", monospace;
+
+/* Font Size */
+$font-size--xxxl: 3rem;
+$font-size--xxl: 2.5rem;
+$font-size--xl: 2rem;
+$font-size--lg: 1.5rem;
+$font-size--md: 1rem;
+$font-size--sm: 0.75rem;
+$font-size--xs: 0.5rem;
+
+/* Font Weight */
+$font-weight--ultra: 900;
+$font-weight--black: 800;
+$font-weight--bold: 700;
+$font-weight--semibold: 600;
+$font-weight--medium: 500;
+$font-weight--regular: 400;
+$font-weight--book: 300;
+$font-weight--light: 200;
+$font-weight--thin: 100;
+
+/* Letter Spacing */
+$letter-spacing--wide: 0.05em;
+$letter-spacing--normal: 0;
+$letter-spacing--narrow: -0.05em;
+
+/* Line Height */
+$line-height--xxxl: calc($font-size--xxxl + 0.5rem);
+$line-height--xxl: calc($font-size--xxl + 0.5rem);
+$line-height--xl: calc($font-size--xl + 0.5rem);
+$line-height--lg: calc($font-size--lg + 0.5rem);
+$line-height--md: calc($font-size--md + 0.5rem);
+$line-height--sm: calc($font-size--sm + 0.5rem);
+$line-height--xs: calc($font-size--xs + 0.5rem);

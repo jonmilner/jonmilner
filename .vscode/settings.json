@@ -4,5 +4,11 @@
   "javascript.format.enable": false,
   "prettier.eslintIntegration": true,
   "prettier.singleQuote": true,
-  "prettier.stylelintIntegration": true
+  "prettier.stylelintIntegration": true,
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0088cc",
+    "titleBar.inactiveBackground": "#0088cccc",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveForeground": "#ffffffcc"
+  }
 }

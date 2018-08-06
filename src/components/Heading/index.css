@@ -1,0 +1,25 @@
+@import "../../assets/css/1_settings";
+
+@define-mixin jm-c-heading--size $size {
+  font-size: $font-size--$(size);
+  line-height: $line-height--$(size);
+}
+
+.jm-c-heading {
+  display: block;
+
+  &--size-xxxl { @mixin jm-c-heading--size xxxl; }
+  &--size-xxl { @mixin jm-c-heading--size xxl; }
+  &--size-xl { @mixin jm-c-heading--size xl; }
+  &--size-lg { @mixin jm-c-heading--size lg; }
+  &--size-md { @mixin jm-c-heading--size md; }
+  &--size-sm { @mixin jm-c-heading--size sm; }
+  &--size-xs { @mixin jm-c-heading--size xs; }
+
+  &--weight-black { font-weight: $font-weight--black; }
+  &--weight-bold { font-weight: $font-weight--bold; }
+  &--weight-semibold { font-weight: $font-weight--semibold; }
+  &--weight-medium { font-weight: $font-weight--medium; }
+  &--weight-regular { font-weight: $font-weight--regular; }
+  &--weight-light { font-weight: $font-weight--light; }
+}

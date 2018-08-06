@@ -1,29 +1,31 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "jon-milner-website",
+  "description": "My personal website",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "develop": "gatsby develop",
+    "lint": "tslint --project .",
+    "serve": "gatsby serve",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@types/classnames": "^2.2.6",
+    "@types/node": "^10.5.6",
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "classnames": "^2.2.6",
     "gatsby": "next",
+    "prop-types": "^15.6.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   },
   "devDependencies": {
     "autoprefixer": "^9.0.2",
     "cssnano": "^4.0.5",
-    "eslint": "^5.2.0",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-loader": "^2.1.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0",
-    "gatsby-plugin-eslint": "^1.0.3",
-    "gatsby-plugin-google-analytics": "^1.0.31",
-    "gatsby-plugin-postcss": "^1.0.0",
+    "gatsby-plugin-google-analytics": "next",
+    "gatsby-plugin-postcss": "next",
+    "gatsby-plugin-typescript": "next",
     "postcss": "^7.0.2",
     "postcss-apply": "^0.10.0",
     "postcss-assets": "^5.0.0",
@@ -43,6 +45,10 @@
     "postcss-reporter": "^5.0.0",
     "postcss-simple-vars": "^4.1.0",
     "stylelint": "^9.4.0",
-    "stylelint-config-jon-milner": "^4.0.0"
+    "stylelint-config-jon-milner": "^4.0.0",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.14.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.0.1"
   }
 }

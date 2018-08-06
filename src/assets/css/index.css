@@ -2,17 +2,15 @@
  * Global
  * ========================================================================== */
 
-@import "settings";
-@import "reset";
-@import "mixins";
+@import "1_settings";
+@import "2_tools";
+@import "3_generic";
+@import "4_elements";
 
-body {
-  align-content: center;
-  background-color: $color--primary;
-  color: #fff;
+/* stylelint-disable-next-line */
+#___gatsby {
+  align-items: center;
   display: flex;
-  height: 100vh;
+  flex-direction: column;
   justify-content: center;
-  text-align: center;
-  width: 100vw;
 }

@@ -1,6 +1,10 @@
 /* ==========================================================================
- * Styles
+ * Generic
  * ========================================================================== */
 
-/* Global */
-@import "global";
+@import "_box-sizing";
+@import "_font-face";
+@import "_font-smoothing";
+@import "_reset";
+@import "_selection";
+@import "_tap-highlight";

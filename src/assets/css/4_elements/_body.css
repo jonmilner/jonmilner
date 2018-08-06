@@ -1,0 +1,16 @@
+/* ==========================================================================
+ * Body
+ * ========================================================================== */
+
+body {
+  align-content: center;
+  background-color: $color--primary;
+  color: #fff;
+  display: flex;
+  font-family: $font-family--primary;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  text-decoration-skip: ink;
+  width: 100vw;
+}

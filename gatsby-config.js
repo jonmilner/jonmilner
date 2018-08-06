@@ -1,11 +1,9 @@
 module.exports = {
   plugins: [
-    // 'gatsby-plugin-eslint',
-    'gatsby-plugin-postcss',
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: 'UA-123323098-1',
+        trackingId: "UA-123323098-1",
         // Puts tracking script in the head instead of the body
         head: true,
         // Setting this parameter is optional
@@ -16,5 +14,7 @@ module.exports = {
         exclude: [],
       },
     },
+    "gatsby-plugin-typescript",
+    "gatsby-plugin-postcss",
   ],
-};
+}
